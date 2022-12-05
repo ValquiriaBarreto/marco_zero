@@ -4,14 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/contato.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <title>Contato</title>
 </head>
 <body>
     <header>
         <a href="/index.html">
-        <img src="/img/Logo GuiaTour.png" alt="Logo GuiaTour">   
+        <img class="logo" src="/img/logosemfundo.png" alt="Logo GuiaTour">   
         </a>  
-        <img src="/img/por do sol do marco zero.jpg" alt="Por do Sol do Marco Zero de Recife">
         <nav>
             <ul>
                 <a href="/index.html">
@@ -21,31 +24,44 @@
         </nav>
         <h1> Volte Sempre!</h1>
     </header>
+    <div>
+        <h2>Nos contate:</h2>
+    </div> 
+
     <section>
-        <div>
-            <h2>Nos contate:</h2>
-            <form action="">
+        <form action="">
+            <div class="formgrup">
                 <label for="nome:">Nome:</label>
                 <input type="text" name="nome" id="nome">
+            </div>
                 <br>
+            <div class="formgrup">
                 <label for="">E-mail:</label> 
                 <input type="email" name="email" id="email" placeholde= "Escreva seu e-mail aqui">
+            </div>
                 <br>
-                <label for="msg">Comentário:</label><br>
-                <textarea id="msg"placeholder="Deixe aqui sua dúvida, sugestão, crítica construtiva e entraremos em contato através do e-mail cadastrado. "></textarea>
-            </form>
+            <div class="formgrup">
+                <label for="msg">Comentário:</label>
+                <textarea id="msg"placeholder="Deixe seu comentário aqui! "></textarea>
+            </div>
+            <br>
+            <input class="button" type="submit" volue="Enviar">
+        </form>
+     </section>
+     <footer>
+        <div class="footer1">
+            <span><i><b>GuiaTour</b></i></span>
         </div>
-    </section>
-    <footer>
-        <span>GuiaTour</span>
-        <ul>
-          <li>Facebook</li>
-          <li>Instagram</li>
-          <li>Linkedin</li>
-          <a href="/Contato.html">
-            <li>Contato</li>
-          </a>
-        </ul>
-      </footer>    
+        <div class="footer2">
+            <ul>
+                <li>Facebook</li>
+                <li>Instagram</li>
+                <li>Linkedin</li>
+                <a href="/Contato.html">
+                    <li>Contato</li>
+                </a>
+            </ul>
+        </div>
+    </footer>      
 </body>
 </html>

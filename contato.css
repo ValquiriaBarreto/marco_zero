@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: 0;
+    list-style: none;
+    outline: none;
+    text-decoration: none;
+}
+/* */
+
+body{
+    font-family: 'Times New Roman', Times, serif,'Open Sans', sans-serif;
+    font-size: 18px;
+    margin: 15px;
+    
+}
+
+.logo {
+    position:absolute;
+    width: 80px;
+    margin: 1px;
+ }
+nav ul li {
+    text-align: center;
+    margin-bottom: 60px;
+    padding: 30px;
+    background-color: rgb(183, 208, 228);
+    
+}
+h1{
+   text-align: center; 
+
+}
+
+h2{
+   text-align: center;
+   margin: 20px;
+ }
+ form{
+    text-align: center;
+    margin-bottom: 50px;
+ }
+.formgrup {
+    display: block;
+    text-align: center;
+    border-color: rgb(183, 208, 228);
+    border: 10px;
+    padding: 15px;
+
+}
+textarea{
+    border: 1px solid ;
+    border-color: rgb(183, 208, 228)
+}
+input{
+    border: 1px solid ;
+    border-color: rgb(183, 208, 228);
+}
+.button{
+    padding: 20px;
+    color: black;
+    background-color: rgb(183, 208, 228);
+    border-radius: 5px;
+    text-align: center;
+    border: none;
+}
+
+.footer1{
+    padding: 20px;
+    text-align: center;
+
+}
+.footer2{
+    text-align: end;
+    font-size: 16px;
+}
+h3 {
+    text-align: center;
+    background-color: rgb(183, 208, 228) ;
+}
+p{
+    text-align: center;
+    color: rgb(137, 137, 216);
+
+}
