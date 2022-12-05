@@ -72,7 +72,8 @@ input{
 
 }
 .footer2{
-    text-align: end;
+    display: flex;
+    flex-direction: row-reverse;
     font-size: 16px;
 }
 h3 {
